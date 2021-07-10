@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="header">
-               <h1> Hotel Management App</h1>
+               <h1>Hotel Management System</h1>
             </div>
         </div>
     )
