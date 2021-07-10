@@ -39,7 +39,7 @@ const Home = () => {
                                 <Card imgUrl={hotel.imgPath} hotel={hotel.hotel_name} rooms={hotel.no_of_rooms} price={hotel.per_day_price} service={hotel.services} />
                             </div>
                         )
-                    }) : "Loading...."}
+                    }) :<center><div class="loader"></div></center>}
                 </div>
             </div>
             <Footer />
