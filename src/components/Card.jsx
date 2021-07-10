@@ -20,7 +20,7 @@ const Card = (props) => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item"><b>ROOMS:</b> {props.rooms} <i className="fas fa-hotel service"></i></li>
                             <li className="list-group-item"><b>PRICE:</b> {props.price} <i class="far fa-money-bill-alt service"></i></li>
-                            <li className="list-group-item"><b>SERIVES:</b> {props.service}<i className="fas fa-bed service"></i></li>
+                            <li className="list-group-item"><b>SERIVES:</b> {props.service}</li>
                         </ul>
                     </p>
                     <center>
